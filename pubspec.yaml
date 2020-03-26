@@ -1,0 +1,30 @@
+name: flutter_news
+version: 0.1.0
+description: >-
+  A showcase App for displaying News Articles from newsapi.org
+homepage: https://github.com/glassp/flutter_news
+documentation: https://github.com/glassp/flutter_news/docs
+
+environment:
+  sdk: '>=2.3.0 <3.0.0'
+dependencies:
+  json_annotation: ^3.0.0
+  async_redux: ^2.5.8
+  http: ^0.12.0+4
+  cached_network_image: ^2.0.0
+  webview_flutter: ^0.3.19
+  flushbar:
+    git:
+      url: git://github.com/AndreHaueisen/flushbar.git
+      ref: 13c55a8
+dev_dependencies:
+  test: any
+  flutter_test:
+    sdk: flutter
+  dotenv: any
+  json_serializable: any
+  build_runner: any
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image-not-found.png
